@@ -9,7 +9,21 @@
 body {
   padding: 0;
   margin: 0;
-  background: lightsalmon;
+  animation: ease change 10s infinite;
+}
+@keyframes change {
+  0% {
+    background-color: lightsalmon;
+  }
+  25% {
+    background-color: lightseagreen;
+  }
+  50% {
+    background-color: lightsteelblue;
+  }
+  100% {
+    background-color: lightsalmon;
+  }
 }
 
 .calculator-grid {
